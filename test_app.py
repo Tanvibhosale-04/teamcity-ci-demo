@@ -6,4 +6,4 @@ def test_home():
 
     response = client.get("/")
 
-    assert response.data == b"Hello from TeamCity CI!"
+    assert response.data == b"Hello from TeamCity CI-wrong!"
